@@ -105,6 +105,7 @@ const App = () => {
           </View>
 
           <View style={{ flexDirection: 'row', borderWidth: 0.1 }}>
+
             <View style={[AppStyles.tableColm, { flex: 2 }]}></View>
             <View style={[AppStyles.tableColm, { flex: 0.5 }]}>
               <Text style={{ fontWeight: "bold", }}>ID</Text>
@@ -115,6 +116,7 @@ const App = () => {
             <View style={[AppStyles.tableColm, { flex: 3 }]}>
               <Text style={{ fontWeight: "bold", }}>Title</Text>
             </View>
+
           </View>
           {
             compareData.map((item) => {
